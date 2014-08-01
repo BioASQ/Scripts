@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /**
  * dump_questions.js
  * Dumps the questions database as JSON.

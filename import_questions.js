@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /**
  * import_questions.js
  * Imports questions into the database.

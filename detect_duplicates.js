@@ -1,6 +1,7 @@
+#!/usr/bin/env node
 /**
  * detect_duplicates.js
- * Finds pairwise annoteted questions by title string comparison.
+ * Finds pairwise annotated questions by title string comparison.
  */
 var program = require('commander'),
     fs = require('fs');

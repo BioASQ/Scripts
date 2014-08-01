@@ -1,6 +1,7 @@
+#!/usr/bin/env node
 /**
  * dump_logs.js
- * Dumps the log database in log file format
+ * Dumps the log database in log file format.
  */
 var mongodb = require('mongodb'),
     server = new mongodb.Server('127.0.0.1', '27017', {}),
