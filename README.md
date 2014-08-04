@@ -37,6 +37,17 @@ Dumps the log database in log file format.
 
 Dumps the questions database as JSON.
 
+    Usage: dump_questions.js [options]
+
+    Options:
+
+        -h, --help                       output usage information
+        -f, --question-file <file name>  JSON file with questions to import
+        -d, --database-name <name>       Database to import to
+        -c, --collection-name <name>     Collection to import to
+        -r, --read-from-stdin            read question IDs from stdin (one per line)
+        -n, --finalized-only             dump only questions whose publication level is not `private`
+
 `import_questions.js`
 ---------------------
 

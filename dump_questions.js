@@ -3,65 +3,99 @@
  * dump_questions.js
  * Dumps the questions database as JSON.
  */
+var program = require('commander');
+program
+    .option('-f, --question-file <file name>', 'JSON file with questions to import')
+    .option('-d, --database-name <name>', 'Database to import to')
+    .option('-c, --collection-name <name>', 'Collection to import to')
+    .option('-r, --read-from-stdin', 'read question IDs from stdin (one per line)')
+    .option('-n, --finalized-only', 'dump only questions whose publication level is not `private`')
+    .parse(process.argv);
+
 var mongodb = require('mongodb'),
     server = new mongodb.Server('127.0.0.1', '27017', {}),
-    connection = new mongodb.Db('annotations_backup', server, { safe: false }),
+    connection = new mongodb.Db(program.databaseName, server, { safe: false }),
     ObjectID = require('mongodb').ObjectID,
     querystring = require('querystring'),
+    byline = require('byline'),
     util = require('util');
 
-connection.open(function (err, conn) {
-    if (err) {
-        process.stdout.write('Could not open connection.');
-        process.exit(-1);
-    }
+var questionIDs = [];
 
-    conn.collection('questions', function (err, questions) {
-        if (err) {
-            process.stdout.write('Could not open `questions` collection.');
-            process.exit(-1);
-        }
-        /*
-         * TODO: Modify here to change the query
-         */
-        var cursor = questions.find({});
-
-        var documents = [];
-        if (typeof cursor !== 'undefined') {
-            cursor.count(function (err, count) {
-                process.stderr.write('Retrieved ' + count + ' documents.\n');
-                var num = 1,
-                    notExported = 0;
-                cursor.each(function (err, doc, index) {
-                    if (err) {
-                        process.stderr.write('Error counting cursor.\n');
-                        process.stderr.write(err.trace);
-                        process.exit(-1);
-                    }
-
-                    if (doc) {
-                        transform(doc);
-                        documents.push(doc);
-                    } else {
-                        // the last entry will be `null`
-                        process.stderr.write(notExported + ' questions were not written.\n');
-                        process.stdout.write(JSON.stringify(documents, null, 4));
-                        process.exit(0);
-                    }
-                });
-            });
+if (program.readFromStdin) {
+    var IDStream = byline(process.stdin);
+    IDStream.on('data', function (ID) {
+        try {
+            var oid = new ObjectID(String(ID));
+            questionIDs.push(oid);
+        } catch (e) {
+            console.error('Could not create ObjectID from id: ' + ID);
+            console.error(e);
         }
     });
-});
+    IDStream.on('end', function () {
+        exportQuestions();
+    });
+} else {
+    exportQuestions();
+}
 
-var transform = function (question) {
+function exportQuestions() {
+    connection.open(function (err, conn) {
+        if (err) {
+            process.stdout.write('Could not open connection.');
+            process.exit(-1);
+        }
+
+        conn.collection(program.collectionName, function (err, questions) {
+            if (err) {
+                process.stdout.write('Could not open collection.');
+                process.exit(-1);
+            }
+
+            var query = questionIDs.length ? { _id: { $in: questionIDs } } : {};
+            if (program.finalizedOnly) {
+                query['finalized'] = { $nin: [ 'private' ] };
+            }
+            var cursor = questions.find(query);
+
+            var documents = [];
+            if (typeof cursor !== 'undefined') {
+                cursor.count(function (err, count) {
+                    process.stderr.write('Retrieved ' + count + ' documents.\n');
+                    var num = 1,
+                        notExported = 0;
+                    cursor.each(function (err, doc, index) {
+                        if (err) {
+                            process.stderr.write('Error counting cursor.\n');
+                            process.stderr.write(err.trace);
+                            process.exit(-1);
+                        }
+
+                        if (doc) {
+                            transform(doc);
+                            documents.push(doc);
+                        } else {
+                            // the last entry will be `null`
+                            process.stderr.write(notExported + ' questions were not written.\n');
+                            process.stdout.write(JSON.stringify(documents, null, 4));
+                            process.exit(0);
+                        }
+                    });
+                });
+            }
+        });
+    });
+};
+
+function transform(question) {
     question.type = question.question_type;
     delete question.question_type;
 
     question.creator = "test@bioasq.org";
 };
 
-var cleanAnswer = function (doc) {
+function cleanAnswer(doc) {
     var copy = JSON.parse(JSON.stringify(doc));
     switch (doc.type) {
     case 'factoid':
@@ -80,7 +114,7 @@ var cleanAnswer = function (doc) {
     return copy;
 };
 
-var exportDoc = function (doc, num, f) {
+function exportDoc(doc, num, f) {
     if (doc.answer /*&& doc.answer.text /*&& doc.body.search(/^.*#\s* /) > -1*/) {
         f.id = doc._id;
         f.creator = doc.creator;
@@ -174,7 +208,7 @@ var exportDoc = function (doc, num, f) {
     return false;
 };
 
-var annotationIndex = function (question, documentURI, annotationText, annotationHTML) {
+function annotationIndex(question, documentURI, annotationText, annotationHTML) {
     var result = {},
         documents = question.entities.filter(function (e) { return e.uri === documentURI; });
 
@@ -241,7 +275,7 @@ var annotationIndex = function (question, documentURI, annotationText, annotatio
     return result;
 };
 
-var secondPartIsExactAnswer = function (string) {
+function secondPartIsExactAnswer(string) {
     var iPos = string.search(/ideal +(?:answer|asnwer)/i),
         ePos = string.search(/exact +(?:answer|asnwer)/i);
 
@@ -251,7 +285,7 @@ var secondPartIsExactAnswer = function (string) {
     );
 };
 
-var splitAnswer = function (answer, type) {
+function splitAnswer(answer, type) {
     var ideal, exact,
         tmp = answer.split(/\s*(?:ideal|exact)\s+(?:answer|asnwer):?\s*/i)
                     .filter(function (item) { return item !== ''; });
@@ -300,7 +334,7 @@ var splitAnswer = function (answer, type) {
     };
 };
 
-var unescapeHTML = function (text) {
+function unescapeHTML(text) {
     var escapes = {
         '&lt;':   '<',
         '&gt;':   '>',
@@ -326,7 +360,7 @@ var unescapeHTML = function (text) {
     return text;
 };
 
-var escapeHTML = function (text) {
+function escapeHTML(text) {
     var escapes = {
         '&': '&amp;',
         '<': '&lt;',
@@ -342,7 +376,7 @@ var escapeHTML = function (text) {
     return text;
 };
 
-var stripAnnotationHTML = function (text) {
+function stripAnnotationHTML(text) {
     var stripped = unescapeHTML(text);
     stripped = stripped.replace(new RegExp(
         '\n            <span style=["|\']background-color:#fff000;["|\']>\n                ', 'g'
@@ -357,10 +391,10 @@ var stripAnnotationHTML = function (text) {
     return stripped;
 }
 
-var quoteRegExp = function (str) {
+function quoteRegExp(str) {
     return str.replace(/([.?*+^$[\]\\(){}|-])/g, '\\$1');
 };
 
-var stripTagsForRegExp = function (text) {
+function stripTagsForRegExp(text) {
     text.replace(new RegExp(/<span[^>]+/), '\\s+')
 };
