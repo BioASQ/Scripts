@@ -28,7 +28,7 @@ connection.open(function (err, conn) {
 
     conn.collection(program.collectionName, function (err, questions) {
         if (err) {
-            process.stdout.write('Could not open `questions` collection.');
+            process.stdout.write('Could not open collection.');
             process.exit(-1);
         }
 
