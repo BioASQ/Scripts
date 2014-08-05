@@ -72,6 +72,7 @@ Creates the files for the task B BioASQ challenge, given dump data from the BioA
     Filename: the path to the file containing the Annotation Tool data 
     
     Example Call: python createDataFiles.py annotationToolData-toy.json 
+    Comment: The annotationToolData-toy.json is provided to test the implementation.
     
 
 
@@ -85,4 +86,6 @@ Provides a summary with stastistics about a dataset of the task B BioASQ challen
     Filename: the path to the file containing the golden data of a task B BioASQ challenge, as created by the script     createTestPhase.py
     
     Example Call: python createStats.py golden.json
+    Comment: The annotationToolData-toy.json is provided to test the script createTestPhase.py. In a next step you can use its output file "golden.json" to test this script.
+
 
