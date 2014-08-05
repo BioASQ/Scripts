@@ -1,0 +1,1023 @@
+[
+    {
+        "_id": "52b06a68f828ad283c000005",
+        "answer": {
+            "ideal": "Yes, Tuberous Sclerosis is a genetic disease, caused by mutations in the TSC1 or TSC2 gene.",
+            "exact": "yes"
+        },
+        "body": "Is Tuberous Sclerosis a genetic disease?",
+        "concepts": [
+            {
+                "title": "tuberous sclerosis",
+                "uri": "http://www.disease-ontology.org/api/metadata/DOID:13515",
+                "source": "Disease Ontology",
+                "score": 0.5940337352118865,
+                "match": "tuberous sclerosis",
+                "ranges": [
+                    {
+                        "begin": 0,
+                        "end": 8
+                    },
+                    {
+                        "begin": 9,
+                        "end": 18
+                    }
+                ],
+                "type": "concept"
+            },
+            {
+                "title": "TSC1-TSC2 complex",
+                "uri": "http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0033596",
+                "source": "Gene Ontology",
+                "score": 0.45315902473741504,
+                "match": "tuberous sclerosis complex",
+                "ranges": [
+                    {
+                        "begin": 0,
+                        "end": 8
+                    },
+                    {
+                        "begin": 9,
+                        "end": 18
+                    }
+                ],
+                "type": "concept"
+            },
+            {
+                "title": "Hamartin",
+                "uri": "http://www.uniprot.org/uniprot/TSC1_HUMAN",
+                "source": "UniProt",
+                "score": 0.475061374024914,
+                "match": "Tuberous sclerosis 1 protein",
+                "ranges": [
+                    {
+                        "begin": 0,
+                        "end": 8
+                    },
+                    {
+                        "begin": 9,
+                        "end": 18
+                    }
+                ],
+                "type": "concept"
+            },
+            {
+                "title": "Tuberin",
+                "uri": "http://www.uniprot.org/uniprot/TSC2_HUMAN",
+                "source": "UniProt",
+                "score": 0.4720307346277568,
+                "match": "Tuberous sclerosis 2 protein",
+                "ranges": [
+                    {
+                        "begin": 0,
+                        "end": 8
+                    },
+                    {
+                        "begin": 9,
+                        "end": 18
+                    }
+                ],
+                "type": "concept"
+            },
+            {
+                "title": "Hamartin",
+                "uri": "http://www.uniprot.org/uniprot/TSC1_MOUSE",
+                "source": "UniProt",
+                "score": 0.4141216993610909,
+                "match": "Tuberous sclerosis 1 protein homolog",
+                "ranges": [
+                    {
+                        "begin": 0,
+                        "end": 8
+                    },
+                    {
+                        "begin": 9,
+                        "end": 18
+                    }
+                ],
+                "type": "concept"
+            },
+            {
+                "title": "Tuberous sclerosis 1 protein homolog",
+                "uri": "http://www.uniprot.org/uniprot/TSC1_SCHPO",
+                "source": "UniProt",
+                "score": 0.4141216993610909,
+                "match": "Tuberous sclerosis 1 protein homolog",
+                "ranges": [
+                    {
+                        "begin": 0,
+                        "end": 8
+                    },
+                    {
+                        "begin": 9,
+                        "end": 18
+                    }
+                ],
+                "type": "concept"
+            },
+            {
+                "title": "Hamartin",
+                "uri": "http://www.uniprot.org/uniprot/TSC1_RAT",
+                "source": "UniProt",
+                "score": 0.4141216993610909,
+                "match": "Tuberous sclerosis 1 protein homolog",
+                "ranges": [
+                    {
+                        "begin": 0,
+                        "end": 8
+                    },
+                    {
+                        "begin": 9,
+                        "end": 18
+                    }
+                ],
+                "type": "concept"
+            },
+            {
+                "title": "Tuberin",
+                "uri": "http://www.uniprot.org/uniprot/TSC2_MOUSE",
+                "source": "UniProt",
+                "score": 0.41181682983707496,
+                "match": "Tuberous sclerosis 2 protein homolog",
+                "ranges": [
+                    {
+                        "begin": 0,
+                        "end": 8
+                    },
+                    {
+                        "begin": 9,
+                        "end": 18
+                    }
+                ],
+                "type": "concept"
+            },
+            {
+                "title": "Tuberin",
+                "uri": "http://www.uniprot.org/uniprot/TSC2_RAT",
+                "source": "UniProt",
+                "score": 0.41181682983707496,
+                "match": "Tuberous sclerosis 2 protein homolog",
+                "ranges": [
+                    {
+                        "begin": 0,
+                        "end": 8
+                    },
+                    {
+                        "begin": 9,
+                        "end": 18
+                    }
+                ],
+                "type": "concept"
+            },
+            {
+                "title": "Tuberous sclerosis 2 protein homolog",
+                "uri": "http://www.uniprot.org/uniprot/TSC2_SCHPO",
+                "source": "UniProt",
+                "score": 0.41181682983707496,
+                "match": "Tuberous sclerosis 2 protein homolog",
+                "ranges": [
+                    {
+                        "begin": 0,
+                        "end": 8
+                    },
+                    {
+                        "begin": 9,
+                        "end": 18
+                    }
+                ],
+                "type": "concept"
+            },
+            {
+                "title": "\"tuberous sclerosis complex 2 protein\"",
+                "uri": "http://www.biosemantics.org/jochem#4266396",
+                "source": "Jochem",
+                "score": 0.44990659167380037,
+                "match": "tuberous sclerosis 2 protein",
+                "ranges": [
+                    {
+                        "begin": 0,
+                        "end": 8
+                    },
+                    {
+                        "begin": 9,
+                        "end": 18
+                    }
+                ],
+                "type": "concept"
+            },
+            {
+                "title": "Tuberous Sclerosis",
+                "uri": "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014402",
+                "source": "MeSH",
+                "score": 0.6361684651498815,
+                "match": "Tuberous Sclerosis",
+                "ranges": [
+                    {
+                        "begin": 0,
+                        "end": 8
+                    },
+                    {
+                        "begin": 9,
+                        "end": 18
+                    }
+                ],
+                "type": "concept"
+            }
+        ],
+        "creator": "mvoutsin@bio.demokritos.gr",
+        "documents": [
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/24310804",
+                "title": "Tuberous sclerosis complex diagnosed from oral lesions.",
+                "abstract": "BACKGROUND: Tuberous sclerosis complex (TSC) is a genetic disease in the group known as neurocutaneous syndromes, with dominant autosomal inheritance. It is characterized by skin and adnexal lesions and central and peripheral nervous system tumors, with neurological and psychiatric findings. It may affect the heart, kidneys, eyes, face, bones, lungs, stomach and dentition. METHODS: We present the case of a 66-year-old man with dermatological signs that included hypopigmented maculae, confetti-like lesions, shagreen plaque, angiofibromas on nasolabial folds, neck and back, nail dystrophy and periungual fibromas on fingers and toes. An electroencephalogram produced normal results, but magnetic resonance imaging showed a nodular image measuring 1.2 x 1.0 cm close to the Monro foramen, which was similar to cerebral parenchyma and compatible with a subependymal giant-cell astrocytoma. A conservative approach was taken, through control imaging examinations on the lesion for seven years, with absence of any expansive process or neurological symptoms. Abdominal ultrasonography revealed a solid, heterogenic and echogenic mass with a calcified focus, measuring 4.6 x 3.4 cm, in the rightkidney, compatible with angiomyolipoma. The patient was treated by means of complete nephrectomy because of malignant areas seen on histopathological examination and died one month after the procedure. This case report illustrates the importance of oral clinical findings such as dental enamel pits and angiofibromas in making an early diagnosis of TSC, with subsequent screening examinations, treatment and genetic counseling.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/24092520",
+                "title": "Polycystic kidney disease and chronic renal failure in tuberous sclerosis.",
+                "abstract": "Tuberous sclerosis is a rare genetic disease which leads to formation of benign tumours in the brain and other organs of the body. It is a multisystem disease with various clinical manifestations. Renal angiomyolipomas are the most common renal manifestations whereas renal cell carcinoma is the least. Renal cysts are found in around 20% of the patients but polycystic kidney disease is present in less than 2% cases and is relatively rare manifestation of the disease. We present a case of tuberous sclerosis in a 60-year-old man who presented to the medicine outpatient department for routine evaluation of his hypertension. He was diagnosed as tuberous sclerosis. His ultrasound and CT scan of abdomen revealed polycystic kidney disease. His kidney function test and urine analysis were suggestive of chronic kidney disease.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/23966835",
+                "title": "Reduced juvenile long-term depression in tuberous sclerosis complex is mitigated in adults by compensatory recruitment of mGluR5 and Erk signaling.",
+                "abstract": "Tuberous sclerosis complex (TSC) is a multisystem genetic disease that manifests with mental retardation, tumor formation, autism, and epilepsy. Heightened signaling through the mammalian target of rapamycin (mTOR) pathway is involved in TSC pathology, however it remains unclear how other signaling pathways are perturbed and contribute to disease symptoms. Reduced long-term depression (LTD) was recently reported in TSC mutant mice. We find that although reduced LTD is a feature of the juvenile mutant hippocampus, heightened expression of metabotropic glutamate receptor 5 and constitutively activated Erk signaling in the adult hippocampus drives wild-type levels of LTD. Increased mGluR5 and Erk results in a novel mTOR-independent LTD in CA1 hippocampus of adult mice, and contributes to the development of epileptiform bursting activity in the TSC2(+/-) CA3 region of the hippocampus. Inhibition of mGluR5 or Erk signaling restores appropriate mTOR-dependence to LTD, and significantly reduces epileptiform bursting in TSC2(+/-) hippocampal slices. We also report that adult TSC2(+/-) mice exhibit a subtle perseverative behavioral phenotype that is eliminated by mGluR5 antagonism. These findings highlight the potential of modulating the mGluR5-Erk pathway in a developmental stage-specific manner to treat TSC.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/23359422",
+                "title": "Conditional and domain-specific inactivation of the Tsc2 gene in neural progenitor cells.",
+                "abstract": "Tuberous sclerosis complex (TSC) is a genetic disease characterized by multiorgan benign tumors as well as neurological manifestations. Epilepsy and autism are two of the more prevalent neurological complications and are usually severe. TSC is caused by mutations in either the TSC1 (encodes hamartin) or the TSC2 (encodes tuberin) genes with TSC2 mutations being associated with worse outcomes. Tuberin contains a highly conserved GTPase-activating protein (GAP) domain that indirectly inhibits mammalian target of rapamycin complex 1 (mTORC1). mTORC1 dysregulation is currently thought to cause much of the pathogenesis in TSC but mTORC1-independent mechanisms may also contribute. We generated a novel conditional allele of Tsc2 by flanking exons 36 and 37 with loxP sites. Mice homozygous for this knock-in Tsc2 allele are viable and fertile with normal appearing growth and development. Exposure to Cre recombinase then creates an in-frame deletion involving critical residues of the GAP domain. Homozygous conditional mutant mice generated using Emx1(Cre) have increased cortical mTORC1 signaling, severe developmental brain anomalies, seizures, and die within 3 weeks. We found that the normal levels of the mutant Tsc2 mRNA, though GAP-deficient tuberin protein, appear unstable and rapidly degraded. This novel animal model will allow further study of tuberin function including the requirement of the GAP domain for protein stability.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/23035046",
+                "title": "Prevention of alveolar destruction and airspace enlargement in a mouse model of pulmonary lymphangioleiomyomatosis (LAM).",
+                "abstract": "Pulmonary lymphangioleiomyomatosis (LAM) is a rare genetic disease characterized by neoplastic growth of atypical smooth muscle-like LAM cells, destruction of lung parenchyma, obstruction of lymphatics, and formation of lung cysts, leading to spontaneous pneumothoraces (lung rupture and collapse) and progressive loss of pulmonary function. The disease is caused by mutational inactivation of the tumor suppressor gene tuberous sclerosis complex 1 (TSC1) or TSC2. By injecting TSC2-null cells into nude mice, we have developed a mouse model of LAM that is characterized by multiple random TSC2-null lung lesions, vascular endothelial growth factor-D expression, lymphangiogenesis, destruction of lung parenchyma, and decreased survival, similar to human LAM. The mice show enlargement of alveolar airspaces that is associated with progressive growth of TSC2-null lesions in the lung, up-regulation of proinflammatory cytokines and matrix metalloproteinases (MMPs) that degrade extracellular matrix, and destruction of elastic fibers. TSC2-null lesions and alveolar destruction were differentially inhibited by the macrolide antibiotic rapamycin (which inhibits TSC2-null lesion growth by a cytostatic mechanism) and a 3-hydroxy-3-methylglutaryl coenzyme A reductase inhibitor, simvastatin (which inhibits growth of TSC2-null lesions by a predominantly proapoptotic mechanism). Treatment with simvastatin markedly inhibited MMP-2, MMP-3, and MMP-9 levels in lung and prevented alveolar destruction. The combination of rapamycin and simvastatin prevented both growth of TSC2-null lesions and lung destruction by inhibiting MMP-2, MMP-3, and MMP-9. Our findings demonstrate a mechanistic link between loss of TSC2 and alveolar destruction and suggest that treatment with rapamycin and simvastatin together could benefit patients with LAM by targeting cells with TSC2 dysfunction and preventing airspace enlargement.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/22544534",
+                "title": "Mammalian target of rapamycin (mTOR) inhibition: potential for antiseizure, antiepileptogenic, and epileptostatic therapy.",
+                "abstract": "New epilepsy treatments are needed that not only inhibit seizures symptomatically (antiseizure) but also prevent the development of epilepsy (antiepileptogenic). The mammalian target of rapamycin (mTOR) pathway may mediate mechanisms of epileptogenesis and serve as a rational therapeutic target. mTOR inhibitors have antiepileptogenic and antiseizure effects in animal models of the genetic disease, tuberous sclerosis complex. The mTOR pathway is also implicated in epileptogenesis in animal models of acquired epilepsy and infantile spasms, although the effects of mTOR inhibitors are variable depending on the specific conditions and model. Furthermore, beneficial effects on seizures are lost when treatment is withdrawn, suggesting that mTOR inhibitors are \"epileptostatic\" in only stalling epilepsy progression during treatment. Clinical studies of rapamycin in human epilepsy are limited, but suggest that mTOR inhibitors at least have antiseizure effects in tuberous sclerosis patients. Further studies are needed to assess the full potential of mTOR inhibitors for epilepsy treatment.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/22497684",
+                "title": "Unusual presentation of extracardiac fetal rhabdomyoma of the larynx in a pediatric patient with tuberous sclerosis.",
+                "abstract": "Tuberous sclerosis (TSC) is an autosomal-dominant genetic disease characterized by a spectrum of pathologic manifestations involving skin, brain, kidney, and heart. These manifestations include neuroectodermal, mesodermal, and skin lesions as well as a variety of associated tumors and hamartomas. We report an 11-year-old male with previously diagnosed TSC who presented with a laryngeal mass shown on histology to be fetal cellular rhabdomyoma. Cardiac rhabdomyomas are common in TSC patients, but to our knowledge, the association between TSC and extracardiac rhabdomyomas has not been previously reported.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/22068806",
+                "title": "Multiple facial angiofibromas treated with high-frequency equipment.",
+                "abstract": "Tuberous sclerosis is a rare genetic disease with autosomal dominant inheritance, associated with multiple hamartomas in several organs, such as the brain, skin, lung, kidney, heart and eyes. The authors of this study report a case of a 30 years old female patient with tuberous sclerosis, presenting multiple angiofibromas on face treated with high frequency equipment (radiofrequency), and discuss the therapeutic options for treatment of individuals with extensive cutaneous involvement in tuberous sclerosis.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/22125079",
+                "title": "Video-EEG monitoring methods for characterizing rodent models of tuberous sclerosis and epilepsy.",
+                "abstract": "Tuberous Sclerosis Complex (TSC) is a genetic disease involving dysregulation of the mTOR pathway and resulting in disabling neurological manifestations, such as epilepsy. Animal models may recapitulate epilepsy and other behavioral features of TSC and are useful tools for investigating mechanisms of epileptogenesis and other neurological deficits in TSC. In this chapter, methods for performing video-electroencephalography (video-EEG) to characterize epilepsy and neurological dysfunction in rodent models are reviewed. In particular, technical aspects of surgical implantation of EEG electrodes, video-EEG recording, and analysis and interpretation of EEG data are detailed. These methodological approaches should be helpful in characterizing seizures and background EEG abnormalities not only in animal models of TSC but also in many rodent epilepsy models in general.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/22025691",
+                "title": "Regulable neural progenitor-specific Tsc1 loss yields giant cells with organellar dysfunction in a model of tuberous sclerosis complex.",
+                "abstract": "Tuberous sclerosis complex (TSC) is a multiorgan genetic disease in which brain involvement causes epilepsy, intellectual disability, and autism. The hallmark pathological finding in TSC is the cerebral cortical tuber and its unique constituent, giant cells. However, an animal model that replicates giant cells has not yet been described. Here, we report that mosaic induction of Tsc1 loss in neural progenitor cells in Tsc1(cc) Nestin-rtTA(+) TetOp-cre(+) embryos by doxycycline leads to multiple neurological symptoms, including severe epilepsy and premature death. Strikingly, Tsc1-null neural progenitor cells develop into highly enlarged giant cells with enlarged vacuoles. We found that the vacuolated giant cells had multiple signs of organelle dysfunction, including markedly increased mitochondria, aberrant lysosomes, and elevated cellular stress. We found similar vacuolated giant cells in human tuber specimens. Postnatal rapamycin treatment completely reversed these phenotypes and rescued the mutants from epilepsy and premature death, despite prenatal onset of Tsc1 loss and mTOR complex 1 activation in the developing brain. This TSC brain model provides insights into the pathogenesis and organelle dysfunction of giant cells, as well as epilepsy control in patients with TSC.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/22021912",
+                "title": "GABAergic interneuron development and function is modulated by the Tsc1 gene.",
+                "abstract": "Tuberous sclerosis complex (TSC) is a genetic disease with severe neurologic and psychiatric manifestations including epilepsy, developmental delay, and autism. Despite much progress in defining abnormal signaling pathways including the contribution of increased mTORC1 signaling, specific abnormalities that underlie the severe neurologic features in TSC remain poorly understood. We hypothesized that epilepsy and autism in TSC result from abnormalities of γ-aminobutyric acidergic (GABAergic) interneurons. To test this hypothesis, we generated conditional knockout mice with selective deletion of the Tsc1 gene in GABAergic interneuron progenitor cells. These interneuron-specific Tsc1 conditional knockout (CKO) mice have impaired growth and decreased survival. Cortical and hippocampal GABAergic interneurons of CKO mice are enlarged and show increased mTORC1 signaling. Total numbers of GABAergic cells are reduced in the cortex with differential reduction of specific GABAergic subtypes. Ectopic clusters of cells with increased mTORC1 signaling are also seen suggesting impaired interneuron migration. The functional consequences of these cellular changes are evident in the decreased seizure threshold on exposure to the proconvulsant flurothyl. These findings support an important role for the Tsc1 gene during GABAergic interneuron development, function, and possibly migration.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/21907282",
+                "title": "Neuronal and glia abnormalities in Tsc1-deficient forebrain and partial rescue by rapamycin.",
+                "abstract": "Tuberous Sclerosis Complex (TSC) is a multiorgan genetic disease that prominently features brain malformations (tubers) with many patients suffering from epilepsy and autism. These malformations typically exhibit neuronal as well as glial cell abnormalities and likely underlie much of the neurological morbidity seen in TSC. Tuber pathogenesis remains poorly understood though upregulation of the mTORC1 signaling pathway in TSC has been consistently demonstrated. Here we address abnormal brain development in TSC by inactivating the mouse Tsc1 gene in embryonic neural progenitor cells. This strategy permits evaluation of the role of the Tsc1 gene in both neuronal as well as glial cell lineages. Tsc1(Emx1-Cre) conditional knockout (CKO) animals die by 25 days of life. Their brains have increased size and contain prominent large cells within the cerebral cortex that have greatly increased mTORC1 signaling and decreased mTORC2 signaling. Severe defects of cortical lamination, enlarged dysmorphic astrocytes and decreased myelination were also found. Tsc1(Emx1-Cre) CKO mice were then treated with rapamycin to see if the premature death and brain abnormalities can be rescued. Postnatal rapamycin treatment completely prevented premature death and largely reversed the glia pathology but not abnormal neuronal lamination. These findings support a model that loss of function of the TSC genes in embryonic neural progenitor cells causes cortical malformations in patients with TSC. The dramatic effect of rapamycin suggests that even with extensive multi-lineage abnormalities, a postnatal therapeutic window may exist for patients with TSC.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/21309039",
+                "title": "Functional assessment of variants in the TSC1 and TSC2 genes identified in individuals with Tuberous Sclerosis Complex.",
+                "abstract": "The effects of missense changes and small in-frame deletions and insertions on protein function are not easy to predict, and the identification of such variants in individuals at risk of a genetic disease can complicate genetic counselling. One option is to perform functional tests to assess whether the variants affect protein function. We have used this strategy to characterize variants identified in the TSC1 and TSC2 genes in individuals with, or suspected of having, Tuberous Sclerosis Complex (TSC). Here we present an overview of our functional studies on 45 TSC1 and 107 TSC2 variants. Using a standardized protocol we classified 16 TSC1 variants and 70 TSC2 variants as pathogenic. In addition we identified eight putative splice site mutations (five TSC1 and three TSC2). The remaining 24 TSC1 and 34 TSC2 variants were classified as probably neutral.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/21301339",
+                "title": "Mechanisms of neurocognitive dysfunction and therapeutic considerations in tuberous sclerosis complex.",
+                "abstract": "OBJECTIVE: Mendelian disorders that affect cognition provide a unique opportunity to study the mechanisms of neurodevelopmental disorders through the examination of genetic defects in animals and development of hypotheses that can be tested in human beings. Tuberous sclerosis complex (TSC) is a genetic disease that presents with epilepsy, autism, and intellectual disability. Here we review recent advances in our understanding of TSC pathogenesis and signaling pathways that may be modulated to treat the neurological symptoms. RESULTS: Accumulating evidence suggests that TSC patients have nontuber abnormalities that contribute to the development of the neurological phenotype- in particular, disorganization of axon tracts and deficient myelination. TSC mouse models have failed to replicate the human neuropathology entirely, but have shed light on the cellular abnormalities and the neurobehavioral phenotypes. Most importantly, cell culture and animal models have identified the mTORC1 pathway as a therapeutic target in this disease. CONCLUSIONS: Preclinical data strongly suggest that TSC is a disease of abnormal neuronal connectivity. The high incidence of neurodevelopmental deficits, early detection of the disease in very young ages, and availability of mTORC1 inhibitors make TSC a model for other Mendelian disorders of neurocognition and an avenue for the mechanism-based treatment trials of neurodevelopmental disorders.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/20087180",
+                "title": "Tuberous sclerosis complex: a brave new world?",
+                "abstract": "OBJECTIVE: Tuberous sclerosis complex (TSC) is a multiorgan genetic disease caused by mutations in the TSC1 or TSC2 genes. TSC has been recognized for many years as an important cause of severe neurological disease with patients suffering from epilepsy, developmental delay, autism, and psychiatric problems. During the last year, there have been enormous advances in basic and translational research pertaining to TSC. RESULTS: In this review, I discuss the basic science findings that position the TSC1 and TSC2 genes as critical regulators of the mammalian target of rapamycin kinase within mammalian target of rapamycin complex 1. In addition, I will discuss the development of new animal models, translational data, and recent clinical trials using mammalian target of rapamycin complex 1 inhibitors such as rapamycin. CONCLUSIONS: The past few years have seen spectacular advances that have energized TSC-related research and challenged existing symptomatic treatments. Although it remains to be seen whether use of mammalian target of rapamycin complex 1 inhibitors will revolutionize the care of patients with TSC, the application of basic and translational research towards a specific clinical disorder emphasizes the potential and promise of molecular medicine.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/20073603",
+                "title": "Molecular pathology of lymphangioleiomyomatosis and other perivascular epithelioid cell tumors.",
+                "abstract": "BACKGROUND: Lymphangioleiomyomatosis (LAM) is a cystic lung disease that can be included in the wide group of proliferative lesions named PEComas (perivascular epithelioid cell tumors). These proliferative tumors are characterized by the coexpression of myogenic and melanogenesis-related markers. In all these lesions, genetic alterations related to the tuberous sclerosis complex (TSC) have been demonstrated. Striking improvements in the understanding of the genetic basis of this autosomal dominant genetic disease are coupled to the understanding of the mechanisms that link the loss of TSC1 (9q34) or TSC2 (16p13.3) genes with the regulation of the Rheb/m-TOR/p70S6K pathway. These data have opened a new era in the comprehension of the pathogenesis of LAM and have also suggested new therapeutic strategies for this potentially lethal disease. OBJECTIVE: To present and discuss the pathologic and molecular features of LAM within the spectrum of PEComas, providing a rational approach to their diagnosis. METHODS: The published literature and personal experience. CONCLUSIONS: The inclusion of LAM within the PEComa category is supported by a variety of biologic data and can significantly help in providing a comprehensive view of this interesting and clinically relevant group of lesions. The demonstration of molecular alterations of the mTOR pathway in LAM and other PEComas represents a rational basis for innovative therapeutic approaches with inhibitors of mTOR signaling.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/20041940",
+                "title": "The natural history of epilepsy in tuberous sclerosis complex.",
+                "abstract": "BACKGROUND: Although epilepsy affects most patients with tuberous sclerosis complex (TSC), little is known about the natural history of epilepsy in this genetic disease. METHODS: A retrospective chart review of all patients with TSC seen between January 2002 and October 2008. Charts were reviewed for a history of infantile spasms (IS), seizure other than IS, refractory epilepsy, Lennox-Gastaut syndrome (LGS), anticonvulsant medication use, ages of seizure onset, last seizure, last clinic visit, clinical seizure phenotype(s), cognitive impairment, and genetic mutation. RESULTS: Two hundred ninety-one patients were included. Among these patients, 37.8% had a history of IS; 85.2% had a history of seizure; 54.1% developed multiple seizure types, not including IS; 63.2% had seizure onset in the first year of life; and 12.1% of adults without a seizure history developed epilepsy. Of epilepsy patients, 62.5% developed refractory epilepsy and 33.5% achieved epilepsy remission; 37.5% of these patients achieved medication freedom. IS was a risk factor for refractory epilepsy (p<0.0001) and LGS (p<0.0001). History of seizure, IS, age at seizure onset, and refractory epilepsy each correlated with poor cognitive outcome (p<0.0001). Epilepsy remission correlated with better cognitive outcome (p<0.0001). TSC2 was a risk factor for IS and epilepsy; patients without an identified mutation were more likely to achieve remission. CONCLUSIONS: Most patients with TSC develop epilepsy and most develop multiple seizure types. Onset typically occurs in the first year of life; however, adults remain at risk. Although refractory epilepsy is common, many patients achieve seizure control. Many features of seizure history are predictive of cognitive and epilepsy outcome.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/19744185",
+                "title": "CDKs as therapeutic targets for the human genetic disease tuberous sclerosis?",
+                "abstract": "The tuberous sclerosis gene 2 product tuberin is an important regulator of the mammalian target of rapamycin (mTOR). In addition, tuberin is known to bind to the cyclin-dependent kinase (CDK) inhibitor p27(Kip1) (p27) and to regulate its stability and localization via mTOR-independent mechanisms. Recently, evidence has been provided that tuberin also affects p27 localization via regulating mTOR's potential to activate the serum- and glucocorticoid-inducible kinase (SGK1) to phosphorylate p27. Taken together, these findings strengthen the argument that besides mTOR-inhibitors, such as rapamycin analogues, p27 and CDKs could also be considered targets for hamartoma therapeutics in tuberous sclerosis.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/19624715",
+                "title": "Progressive multifocal cystlike cortical tubers in tuberous sclerosis complex: Clinical and neuropathologic findings.",
+                "abstract": "Tuberous sclerosis complex (TSC) is a genetic disease characterized by the presence of hamartomatous lesions in multiple organs and cortical tubers in the brain. The majority of patients with TSC have epilepsy, although the mechanisms underlying epileptogenesis remain unknown. Tubers are traditionally thought to be stable lesions that result from abnormal corticogenesis in early fetal development. Recently, cystlike tubers have been identified in nearly half of patients with TSC, although the spectrum and natural history of these lesions remains unknown. Herein we report eight children with a high burden of cystlike tubers and present detailed clinical information on two children with documented progression. We also report neuropathologic findings of one of the cystlike cortical tubers resected in epilepsy surgery. These cases support the notion that cystlike tubers in TSC are not static lesions and can exhibit evolving characteristics over time. Further work evaluating how these lesions relate to epileptogenesis needs to be done.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/21547713",
+                "title": "Tuberous sclerosis complex: everything old is new again.",
+                "abstract": "Tuberous Sclerosis Complex (TSC) is a multiorgan genetic disease caused by loss of function of either the TSC1 (encodes hamartin) or TSC2 (encodes tuberin) genes. Patients with TSC have benign tumors (hamartomas) in multiple organs though brain involvement is typically the most disabling aspect of the disease as very high rates of neurodevelopmental disorders are seen. While first described well over 120 years ago, recent advances have transformed TSC into a prototypical disorder that exemplifies the methods and potential of molecular medicine. This review will detail historical aspects of TSC and its strong associations with neurodevelopmental disorders focusing on epilepsy and autism. Finally, promising new approaches for the treatment of epilepsy and autism in patients with TSC as well as those in the general population will be discussed.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/19297407",
+                "title": "Tuberous sclerosis complex, implication from a rare genetic disease to common cancer treatment.",
+                "abstract": "Tuberous sclerosis complex (TSC) is a relatively rare autosomal dominant disorder characterized by widespread benign tumor formation in a variety of organs. Mutations in either TSC1 or TSC2 tumor suppressor gene are responsible for TSC. The gene products of TSC1 and TSC2, also known as hamartin and tuberin, respectively, form a physical and functional complex and inhibit the mammalian target of rapamycin complex 1 (mTORC1) signaling. The mTORC1 pathway is an evolutionarily conserved growth promoting pathway. mTORC1 plays an essential role in a wide array of cellular processes including translation, transcription, trafficking and autophagy. In this review, we will discuss recent progresses in the TSC-mTOR field and their physiological functions and alterations of this pathway in pathophysiology.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/18245941",
+                "title": "Tuberous sclerosis--a multi system disease.",
+                "abstract": "Tuberous sclerosis is a genetic disease with autosomal dominant inheritance, associated with hamartomas in several organs and various skin findings. A case of a ten year old boy is presented here to highlight the multisystem involvement in tuberous sclerosis. The child had seizures, facial papular naevi and peri-ungual fibromas. MRI revealed cortical tubers, white matter lesions and subependymal nodules. Orbital ultrasound showed retinal hamartoma on the left side. Ultrasound of the abdomen revealed a soft tissue mass at the upper pole of left kidney with a small cyst in right kidney.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/18080139",
+                "title": "PEComas: the past, the present and the future.",
+                "abstract": "The perivascular epithelioid cell (PEC) is a cell type constantly present in a group of tumors called PEComas. PEC expresses myogenic and melanocytic markers, such as HMB45 and actin. Recently, recurrent chromosomal alterations have been demonstrated in PEC. At present, PEComa is a widely accepted entity. In the past 10 years, the use of this term has allowed to report and describe numerous cases permitting to start highlighting the biology of this group of lesions. PEComas are related to the genetic alterations of tuberous sclerosis complex (TSC), an autosomal dominant genetic disease due to losses of TSC1 (9q34) or TSC2 (16p13.3) genes which seem to have a role in the regulation of the Rheb/mTOR/p70S6K pathway. There are some open questions about PEComas regarding its histogenesis, the definition of epithelioid angiomyolipoma and the identification of the histological criteria of malignancy. An innovative therapeutic trial using rapamycin is under way for tumors occurring in TSC such as renal angiomyolipoma and lymphangioleiomyomatosis. Its success could provide the rationale for the use of the same drug in other lesions composed of PECs, especially in the malignant ones.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/16818174",
+                "title": "The neurobiology of tuberous sclerosis complex.",
+                "abstract": "Tuberous sclerosis complex (TSC) is a multiorgan genetic disease caused by inactivation of either the TSC1 or TSC2 genes. The disorder typically has profound neurologic involvement and often presents early in life with epilepsy, developmental delay, mental retardation, and autism. These features are generally accepted to result from structural brain abnormalities that are found in patients with TSC. Although much progress has recently been made in discerning the function(s) of the TSC genes, many questions remain as to the role of these genes in brain development and homeostasis. This review will summarize recent progress and suggest future avenues of basic science research.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/16757313",
+                "title": "Measurements of TSC2 GAP activity toward Rheb.",
+                "abstract": "Tuberous sclerosis complex (TSC) is a genetic disease caused by mutation in either the tsc1 or tsc2 tumor suppressor genes. TSC1 and TSC2 protein form a physical and functional complex in vivo. Recent studies have demonstrated that TSC2 displays GTPase activating protein (GAP) activity specifically toward the small G protein Rheb (Ras homolog enriched in brain) and inhibits its ability to stimulate the mammalian target of rapamycin (mTOR) signaling pathway. We have presented three methods to determine the activity of TSC2 as a GAP toward the Rheb GTPase. The first involves the isolation of TSC2 from cells and measurement of its activity toward Rheb substrate in vitro. The second involves the measurement of Rheb-associated guanine nucleotides as measure of TSC2 GAP activity on Rheb in vivo. The last method is to determine the phosphorylation of S6K1 (ribosomal S6 kinase), which is a downstream target of mTOR, as an indirect assay for TSC2 GAP activity in vivo.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/15456557",
+                "title": "Unilateral tuberous sclerosis complex.",
+                "abstract": "Tuberous sclerosis is a rare genetic disease of autosomal dominant inheritance, associated with hamartomata formation in several organs and various skin findings. A case of young male is presented here with multiple fibromas on right side of his face, peri-ungual fibromas in right index and middle fingers and right second toe, a small shagreen plaque over right lower back and multiple, ill-defined hypopigmented patches over his right side of the trunk and right buttocks. Fundoscopic examination revealed retinal phacomas on right side. CT-scan brain showed right-sided paraventricular calcification.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/15340059",
+                "title": "Biochemical and functional characterizations of small GTPase Rheb and TSC2 GAP activity.",
+                "abstract": "Tuberous sclerosis complex (TSC) is a genetic disease caused by a mutation in either the tsc1 or tsc2 tumor suppressor gene. Recent studies have demonstrated that TSC2 displays GAP (GTPase-activating protein) activity specifically towards the small G protein Rheb and inhibits its ability to stimulate the mTOR signaling pathway. Rheb and TSC2 comprise a unique pair of GTPase and GAP, because Rheb has high basal GTP levels and TSC2 does not have the catalytic arginine finger found in Ras-GAP. To investigate the function of TSC2 and Rheb in mTOR signaling, we analyzed the TSC2-stimulated Rheb GTPase activity. We found that Arg15, a residue equivalent to Gly12 in Ras, is important for Rheb to function as a substrate for TSC2 GAP. In addition, we identified asparagine residues essential for TSC2 GAP activity. We demonstrated a novel catalytic mechanism of the TSC2 GAP and Rheb that TSC2 uses a catalytic \"asparagine thumb\" instead of the arginine finger found in Ras-GAP. Furthermore, we discovered that farnesylation and membrane localization of Rheb is not essential for Rheb to stimulate S6 kinase (S6K) phosphorylation. Analysis of TSC1 binding defective mutants of TSC2 shows that TSC1 is not required for the TSC2 GAP activity but may function as a regulatory component in the TSC1/TSC2 complex. Our data further demonstrate that GAP activity is essential for the cellular function of TSC2 to inhibit S6K phosphorylation.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/12869586",
+                "title": "Rheb GTPase is a direct target of TSC2 GAP activity and regulates mTOR signaling.",
+                "abstract": "Tuberous sclerosis complex (TSC) is a genetic disease caused by mutation in either TSC1 or TSC2. The TSC1 and TSC2 gene products form a functional complex and inhibit phosphorylation of S6K and 4EBP1. These functions of TSC1/TSC2 are likely mediated by mTOR. Here we report that TSC2 is a GTPase-activating protein (GAP) toward Rheb, a Ras family GTPase. Rheb stimulates phosphorylation of S6K and 4EBP1. This function of Rheb is blocked by rapamycin and dominant-negative mTOR. Rheb stimulates the phosphorylation of mTOR and plays an essential role in regulation of S6K and 4EBP1 in response to nutrients and cellular energy status. Our data demonstrate that Rheb acts downstream of TSC1/TSC2 and upstream of mTOR to regulate cell growth.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/12582162",
+                "title": "The p38 and MK2 kinase cascade phosphorylates tuberin, the tuberous sclerosis 2 gene product, and enhances its interaction with 14-3-3.",
+                "abstract": "Tuberous sclerosis complex (TSC) is a genetic disease caused by mutations in either TSC1 or TSC2 tumor suppressor genes. TSC1 and TSC2 (also known as hamartin and tuberin, respectively) form a functional complex and negatively regulate cell growth by inhibiting protein synthesis. 14-3-3 binds to TSC2 and may inhibit TSC2 function. We have reported previously that phosphorylation of serine 1210 (Ser(1210)) in TSC2 is essential for 14-3-3 binding. Here we show that serum and anisomycin enhance the interaction between TSC2 and 14-3-3 by stimulating phosphorylation of Ser(1210). Activation of p38 MAP kinase (p38) is essential for the stimulating effect of serum and anisomycin although p38 is not directly responsible for the phosphorylation of Ser(1210) in TSC2. Both in vitro and in vivo experiments demonstrate that the p38-activated kinase MK2 (also known as MAPKAPK2) is directly responsible for the phosphorylation of Ser(1210). Our data show that anisomycin stimulates phosphorylation of Ser(1210) of TSC2 via the p38-MK2 kinase cascade. Phosphorylation of TSC2 by MK2 creates a 14-3-3 binding site and thus regulates the cellular function of the TSC2 tumor suppressor protein.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/12364343",
+                "title": "Regulation of TSC2 by 14-3-3 binding.",
+                "abstract": "Mutation in either the TSC1 or TSC2 tumor suppressor gene is responsible for the inherited genetic disease of tuberous sclerosis complex. TSC1 and TSC2 form a physical and functional complex to regulate cell growth. Recently, it has been demonstrated that TSC1.TSC2 functions to inhibit ribosomal S6 kinase and negatively regulate cell size. TSC2 is negatively regulated by Akt phosphorylation. Here, we report that TSC2, but not TSC1, associates with 14-3-3 in vivo. Phosphorylation of Ser(1210) in TSC2 is required for its association with 14-3-3. Our data indicate that 14-3-3 association may inhibit the function of TSC2 and represents a possible mechanism of TSC2 regulation.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/11288117",
+                "title": "Denaturing high-performance liquid chromatography (DHPLC)-based prenatal diagnosis for tuberous sclerosis.",
+                "abstract": "Tuberous sclerosis (TSC) is a frequent autosomal-dominant condition (affecting 1 in 6000 individuals) caused by various mutations in either the hamartin (TSC1) or the tuberin gene (TSC2). This allelic and non-allelic heterogeneity makes genetic counseling and prenatal diagnosis difficult, especially as a significant proportion of TSC cases are due to de novo mutations. For this reason the identification of the disease causing mutation is mandatory for accurate counseling, yet current mutation detection methods such as single-strand conformation polymorphism (SSCP) or denaturing gradient gel electrophoresis (DGGE) are labor intensive with limited detection efficiency. Denaturing high-performance liquid chromatography (DHPLC) is a high-throughput, semi-automated mutation detection system with a reported mutation detection rate close to 100% for PCR fragments of up to 800 bp. We used a recently described DHPLC assay allowing the efficient detection of mutations in TSC1 to analyze the DNA extracted from a chorion villus sample in order to perform a prenatal diagnosis for TSC. The fetus was found not to have inherited the deleterious mutation and the DHPLC diagnosis was confirmed by haplotype analysis. This represents the first DHPLC-based prenatal diagnosis of a genetic disease.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/9770187",
+                "title": "Multifocal micronodular pneumocyte hyperplasia, lymphangiomyomatosis and clear cell micronodules of the lung in a Chinese female patient with tuberous sclerosis.",
+                "abstract": "Tuberous sclerosis is a rare genetic disease with protean clinical manifestations. The lesion most commonly described in the lung is lymphangiomyomatosis. There have been recent reports of multifocal micronodular pneumocyte hyperplasia, as well as a single case documentation of a clear cell tumor of the lung, in patients affected by the disease. We detail a case of a female Chinese patient with tuberous sclerosis who was incidentally discovered to have bilateral pneumothoraces. The open lung biopsy revealed combined histological features of multifocal micronodular pneumocyte hyperplasia, lymphangiomyomatosis and clear cell micronodules.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/8129414",
+                "title": "Tuberous sclerosis.",
+                "abstract": "METHODS: Tuberous sclerosis (TS) is a genetic disease with prominent cutaneous and brain involvement whose clinical and molecular genetics are reviewed. METHODS: Tuberous sclerosis is a systemic disorder (incidence one in 10,000) characterized by benign growths (hamartias and hamartomas) in multiple organ systems. Involvement of the brain can result in persistent seizures and mental retardation; skin involvement includes facial angiofibromas, subungual fibromas, hypomelanotic macules, forehead fibrous plaques, and Shagreen's patches. Approximately 60% of TS occurs as apparent sporadic cases. In families, it has autosomal dominant inheritance with high penetrance (approximately 95%), with careful clinical and radiologic evaluation. Genetic linkage analysis indicates that about half of all TS families show linkage to chromosome 9q34, and about half to chromosome 16p13. There are no distinguishing features in the two groups of families showing linkage to the two genomic regions, nor strong evidence for a third causative gene. Positional cloning efforts for both chromosomal regions have limited the region containing the gene to about 1 to 2 million bases. CONCLUSIONS: Identification of the two TS genes should illuminate the pathogenesis of TS and provide opportunities for genetic counseling, prenatal diagnosis, and therapeutic intervention.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/1293183",
+                "title": "Tuberous sclerosis complex: genetic aspects.",
+                "abstract": "Much has been learned about tuberous sclerosis complex (TSC) since it was described at the end of the nineteenth century. TSC was recognized to be a genetic disease with autosomal dominant inheritance in the early twentieth century. The prevalence in the general population is at least 1 in 10,000 with two-thirds of cases occurring sporadically and one-third of cases being familial. The disease exhibits variable expression which may cause mildly affected individuals to be undiagnosed. Because the aberrant or missing proteins which result in TSC have eluded investigators, a positional cloning approach has been pursued to find the mutated genes. Genetic linkages have been reported to chromosomes 9, 11, and 12. There is definite evidence for a TSC-causing locus on chromosome 9 which is thought to account for between one-third and one-half of all familial cases. Investigators have narrowed the location on chromosome 9 to approximately two megabases of physical distance. There is some evidence for a locus on chromosome 11 which probably accounts only for a small percentage of familial cases. The locus proposed on chromosome 12 was reported by a single group and has not been confirmed by other research groups. Evidence for genetic heterogeneity is abundant. There is definitely a TSC-causing locus on chromosome 9q (TSC-1) and there is at least one additional locus, maybe more than one. As the molecular basis of TSC unfolds, new insight will be gained about the protean nature of the disorder and the genetic heterogeneity.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/1479601",
+                "title": "Computer simulation of linkage and heterogeneity in tuberous sclerosis: a critical evaluation of the collaborative family data.",
+                "abstract": "The existence of locus heterogeneity for a genetic disease may complicate linkage studies considerably, especially when very few large families with the disease are available. In this situation a modest collection of families is unlikely to be sufficient for successful localisation of one or more disease genes. Recently, eight research groups working on tuberous sclerosis (TSC) brought together linkage data pertaining to the candidate chromosomes 9, 11, and 12 for a large group of families. In a series of simulation studies we determined the probability of detecting linkage and linkage heterogeneity in this set of families. On average TSC families are very small; in most cases there are fewer than two informative meioses. The size distribution of chromosome 9 linked families was similar to that of non-linked families. This indicates that a dramatic difference in the clinical severity of major genetic forms of TSC is unlikely. The results of our simulation studies show that this set of families can generate highly significant evidence for linkage and heterogeneity. When two TSC genes are equally common, the strongest evidence for linkage and heterogeneity could be obtained using a method based on the incorporation of multiple candidate regions in a single analysis, with an average lod score of 24.27.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/2600265",
+                "title": "Abnormal division and gene expression in cultured cells from a patient with tuberous sclerosis.",
+                "abstract": "Tuberous sclerosis is a dominant hereditary disease characterized by the appearance of angiofibromas on the face, epileptic attacks, and mental retardation. Attention has been paid to the atypical cells observed histologically in the stroma of the angiofibroma as they may play an important role in forming lesions. We have established a cell line from an angiofibroma to clarify the nature of these cells at the cellular and biochemical levels. The cultured cells have been stably maintained for four years and show an abnormal morphology resembling that of neuronal cells. In culture, these cells divide into daughter cells, which consist of both normal cells and abnormal ones whose nuclei disintegrate and cannot divide further. The cells resemble normal fibroblasts in their pattern of staining with antibodies against tubulin, actin, vimentin, and fibronectin. However, they also stain with an antibody against the glia-specific acidic protein, which is thought to be a specific marker protein for glial cells. The gel profile of cyclic-AMP binding proteins was not fibroblastic, but rather of the neuron cell type. These results indicate the gene expression of these cells is also abnormal. They are a useful tool for understanding this specific genetic disease.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/24226526",
+                "title": "Tuberous Sclerosis Complex, mTOR, and the Kidney: Report of an NIDDK-Sponsored Workshop.",
+                "abstract": "UNLABELLED: Remarkable basic and translational advances have elucidated the role of the mammalian target of rapamycin (mTOR) signaling network in the pathogenesis of renal disease. Many of these advances originated from studies of the genetic disease tuberous sclerosis complex (TSC), leading to one of the clearest therapeutic opportunities to target mTOR with rapamycin and its analogs (\"Rapalogs\"), which effectively inhibit mTOR complex 1 (mTORC1) by an allosteric mechanism. Clinical trials based on these discoveries have provided strongly positive therapeutic results in TSC (4, 14, 15) In June 2013, the NIDDK convened a small panel of physicians and scientists working in the field to identify key unknowns and define possible \"next steps\" in advancing understanding of TSC- and mTOR-dependent renal phenotypes. TSC-associated renal disease, which affects more than 85% of TSC patients, and was a major topic of discussion, focused on angiomyolipomas and epithelial cysts. The third major topic was the role of mTOR and mTOR inhibition in the pathogenesis and therapy of chronic renal disease. Renal cell carcinoma, while recognized as a manifestation of TSC that occurs in a small fraction of patients, was not the primary focus of this workshop, and thus was omitted from panel discussions and from this report.",
+                "sections": null,
+                "type": "document"
+            }
+        ],
+        "finalized": true,
+        "snippets": [
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 12,
+                "endIndex": 65,
+                "text": "Tuberous sclerosis complex (TSC) is a genetic disease",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/24310804"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 0,
+                "endIndex": 44,
+                "text": "Tuberous sclerosis is a rare genetic disease",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/24092520"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 0,
+                "endIndex": 65,
+                "text": "Tuberous sclerosis complex (TSC) is a multisystem genetic disease",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/23966835"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 0,
+                "endIndex": 53,
+                "text": "Tuberous sclerosis complex (TSC) is a genetic disease",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/23359422"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 342,
+                "endIndex": 464,
+                "text": "The disease is caused by mutational inactivation of the tumor suppressor gene tuberous sclerosis complex 1 (TSC1) or TSC2.",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/23035046"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 297,
+                "endIndex": 428,
+                "text": "mTOR inhibitors have antiepileptogenic and antiseizure effects in animal models of the genetic disease, tuberous sclerosis complex.",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/22544534"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 0,
+                "endIndex": 65,
+                "text": "Tuberous sclerosis (TSC) is an autosomal-dominant genetic disease",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/22497684"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 0,
+                "endIndex": 44,
+                "text": "Tuberous sclerosis is a rare genetic disease",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/22068806"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 0,
+                "endIndex": 53,
+                "text": "Tuberous Sclerosis Complex (TSC) is a genetic disease",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/22125079"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 0,
+                "endIndex": 64,
+                "text": "Tuberous sclerosis complex (TSC) is a multiorgan genetic disease",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/22025691"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 0,
+                "endIndex": 53,
+                "text": "Tuberous sclerosis complex (TSC) is a genetic disease",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/22021912"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 0,
+                "endIndex": 64,
+                "text": "Tuberous Sclerosis Complex (TSC) is a multiorgan genetic disease",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/21907282"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 258,
+                "endIndex": 311,
+                "text": "Tuberous sclerosis complex (TSC) is a genetic disease",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/21301339"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 11,
+                "endIndex": 75,
+                "text": "Tuberous sclerosis complex (TSC) is a multiorgan genetic disease",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/20087180"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 298,
+                "endIndex": 411,
+                "text": "In all these lesions, genetic alterations related to the tuberous sclerosis complex (TSC) have been demonstrated.",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/20073603"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 12,
+                "endIndex": 169,
+                "text": "Although epilepsy affects most patients with tuberous sclerosis complex (TSC), little is known about the natural history of epilepsy in this genetic disease.",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/20041940"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 0,
+                "endIndex": 116,
+                "text": "The tuberous sclerosis gene 2 product tuberin is an important regulator of the mammalian target of rapamycin (mTOR).",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/19744185"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 0,
+                "endIndex": 53,
+                "text": "Tuberous sclerosis complex (TSC) is a genetic disease",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/19624715"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 0,
+                "endIndex": 64,
+                "text": "Tuberous Sclerosis Complex (TSC) is a multiorgan genetic disease",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/21547713"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 0,
+                "endIndex": 81,
+                "text": "Tuberous sclerosis complex (TSC) is a relatively rare autosomal dominant disorder",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/19297407"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 0,
+                "endIndex": 76,
+                "text": "Tuberous sclerosis is a genetic disease with autosomal dominant inheritance,",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/18245941"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 471,
+                "endIndex": 722,
+                "text": "PEComas are related to the genetic alterations of tuberous sclerosis complex (TSC), an autosomal dominant genetic disease due to losses of TSC1 (9q34) or TSC2 (16p13.3) genes which seem to have a role in the regulation of the Rheb/mTOR/p70S6K pathway.",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/18080139"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 0,
+                "endIndex": 64,
+                "text": "Tuberous sclerosis complex (TSC) is a multiorgan genetic disease",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/16818174"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 0,
+                "endIndex": 53,
+                "text": "Tuberous sclerosis complex (TSC) is a genetic disease",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/16757313"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 0,
+                "endIndex": 44,
+                "text": "Tuberous sclerosis is a rare genetic disease",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/15456557"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 0,
+                "endIndex": 53,
+                "text": "Tuberous sclerosis complex (TSC) is a genetic disease",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/15340059"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 0,
+                "endIndex": 96,
+                "text": "Tuberous sclerosis complex (TSC) is a genetic disease caused by mutation in either TSC1 or TSC2.",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/12869586"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 0,
+                "endIndex": 120,
+                "text": "Tuberous sclerosis complex (TSC) is a genetic disease caused by mutations in either TSC1 or TSC2 tumor suppressor genes.",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/12582162"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 0,
+                "endIndex": 137,
+                "text": "Mutation in either the TSC1 or TSC2 tumor suppressor gene is responsible for the inherited genetic disease of tuberous sclerosis complex.",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/12364343"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 0,
+                "endIndex": 187,
+                "text": "Tuberous sclerosis (TSC) is a frequent autosomal-dominant condition (affecting 1 in 6000 individuals) caused by various mutations in either the hamartin (TSC1) or the tuberin gene (TSC2).",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/11288117"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 0,
+                "endIndex": 44,
+                "text": "Tuberous sclerosis is a rare genetic disease",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/9770187"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 9,
+                "endIndex": 101,
+                "text": "Tuberous sclerosis (TS) is a genetic disease with prominent cutaneous and brain involvement ",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/8129414"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 122,
+                "endIndex": 200,
+                "text": "TSC was recognized to be a genetic disease with autosomal dominant inheritance",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/1293183"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 632,
+                "endIndex": 829,
+                "text": "On average TSC families are very small; in most cases there are fewer than two informative meioses. The size distribution of chromosome 9 linked families was similar to that of non-linked families.",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/1479601"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 0,
+                "endIndex": 507,
+                "text": "The effects of missense changes and small in-frame deletions and insertions on protein function are not easy to predict, and the identification of such variants in individuals at risk of a genetic disease can complicate genetic counselling. One option is to perform functional tests to assess whether the variants affect protein function. We have used this strategy to characterize variants identified in the TSC1 and TSC2 genes in individuals with, or suspected of having, Tuberous Sclerosis Complex (TSC).",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/21309039"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 0,
+                "endIndex": 51,
+                "text": "Tuberous sclerosis is a dominant hereditary disease",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/2600265"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 181,
+                "endIndex": 283,
+                "text": "Many of these advances originated from studies of the genetic disease tuberous sclerosis complex (TSC)",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/24226526"
+            }
+        ],
+        "statements": [],
+        "type": "yesno",
+        "version": 2
+    },
+    {
+        "_id": "52b2e1d8f828ad283c00000c",
+        "answer": {
+            "exact": [
+                "Diabetes mellitus"
+            ],
+            "ideal": "Glibenclamide is an antidiabetic and antiglycemic, used in severe NIDDM, and increasingly viewed as a rational alternative to insulin therapy."
+        },
+        "body": "What is the indication of Daonil (Glibenclamide)?",
+        "concepts": [
+            {
+                "title": "Glyburide",
+                "uri": "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005905",
+                "source": "MeSH",
+                "score": 0.572072700925193,
+                "match": "Daonil",
+                "ranges": [
+                    {
+                        "begin": 0,
+                        "end": 6
+                    }
+                ],
+                "type": "concept"
+            },
+            {
+                "title": "Health Status Indicators",
+                "uri": "http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006305",
+                "source": "MeSH",
+                "score": 0.162077150962003,
+                "match": "Health Status Indicators",
+                "ranges": [
+                    {
+                        "begin": 14,
+                        "end": 24
+                    }
+                ],
+                "type": "concept"
+            },
+            {
+                "title": "\"glyburide\"",
+                "uri": "http://www.biosemantics.org/jochem#4275786",
+                "source": "Jochem",
+                "score": 0.5551002562416536,
+                "match": "Daonil",
+                "ranges": [
+                    {
+                        "begin": 0,
+                        "end": 6
+                    }
+                ],
+                "type": "concept"
+            }
+        ],
+        "creator": "dsanoudou@bioacademy.gr",
+        "documents": [
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/22639778",
+                "title": "[Drug therapy for diabetes mellitus during pregnancy and breastfeeding in the beginning of 21 century: status quo and new challenges].",
+                "abstract": "Diabetes mellitus is frequent during pregnancy and is associated with substantial risks both for the mother and the newborn. An adequate therapy ensures the normal course of pregnancy and delivery and postnatal development of the baby. Insulin, for its well known safety record, has long been considered the drug of first choice for achieving optimal glycemic control in pregnant women. Pregnancy is an indication for intensive insulin therapy. The pre-mixed insulins are not recommended due to their inability to provide the needed therapeutic flexibility during the different periods of pregnancy. The short acting insulin analogue aspart is currently registered for meal-time use in basal therapy with NPH insulin. The long-acting analogues glargine and detemir are still investigated clinically and for the moment are only used off label in pregnancy. Maternal hypoglycemia, the need of injection and the high cost are the main drawbacks of insulin therapy. Evidence has accumulated in recent years that some oral antidiabetics are as efficacious and safe as insulin in gestational diabetes. Metformin and glibenclamide are now increasingly viewed as a rational alternative to insulin therapy--a treatment both preferred by the women and a less expensive one, during pregnancy and breastfeeding.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/21608438",
+                "title": "Protective role of Trigonella foenum graceum extract against oxidative stress in hyperglycemic rats.",
+                "abstract": "OBJECTIVE: \"In all things of nature there is something of the marvelous\". In the present study the anti-hyperglycemic and anti-oxidative potential of aqueous extract of Trigonella foenum graceum (TFG), a traditional medicinal herb was assessed in liver and WBC of alloxan induced diabetic rats. Free radicals can cause oxidative damage, which is balanced by the antioxidants. This has been implicated in aging, and diseases such as diabetes and other chronic conditions. METHODS: TFG extract was administered orally [500 (LM) and 1000 mg/kg body weight (HM)] for six weeks. The effect of TFG on blood glucose were studied and the levels of lipid peroxidation [MDA (Malondialdehyde)] and antioxidant enzymes [SOD (Superoxide dismutase), GPx (Reduced Glutathione peroxidase)] were estimated and compared with standard drugs glibenclamide and insulin. RESULTS: Treatment with TFG, insulin and glibenclamide resulted in significantly reduced blood glucose in LM (8.71%) and HM (3.87%) in comparison with normal controls. There was a significant decrease in lipid peroxidation in liver and white blood cells (WBC) in both low and high doses [liver LM (49%), HM (57.25%)], [WBC LM (54.28%), HM (62.5%)] and increase in antioxidant enzymes SOD [liver LM (33.59%), HM (58.7%)] [WBC LM (44.9%)] HM (58.7%) and GPx [Liver LM (58.55%), HM (40.20%)], [WBC LM (55.46%), HM (56.4%)] when compared to diabetic controls. CONCLUSIONS: Potency of TFG in restoring several parameters to normal values is comparable to glibenclamide, though not as efficient as insulin, an indication of its antihyperglycemic and antioxidant effect.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/16922811",
+                "title": "Possible antidiabetic and antihyperlipidaemic effect of fermented Parkia biglobosa (JACQ) extract in alloxan-induced diabetic rats.",
+                "abstract": "1. The hypoglycaemic effect of fermented seeds of Parkia biglobosa (PB; African locust bean), a natural nutritional condiment that features frequently in some African diets as a spice, was investigated in the present study in alloxan-induced diabetic rats. Its effect was compared with that of glibenclamide (Daonil; Sanofi-Aventis, Paris, France), a reference antidiabetic drug. The effects of PB on lipid profiles were also examined. 2. In order to assess the hypoglycaemic and hypolipidaemic effects of aqueous and methanolic extracts of PB on experimental animals, fasting plasma glucose (FPG), total cholesterol, triglyceride, high-density lipoprotein (HDL) and low-density lipoprotein (LDL) were determined. In addition, the weight of each animal was determined to assess any possible weight gain or loss in the experimental animals (diabetic rats treated with Daonil (group C), the aqueous extract of PB (group D) or the methanolic extract of PB (group E)) compared with control groups (non-diabetic (group A) and non-treated diabetic (group B)). 3. A single dose of 120 mg/kg, i.v., alloxan administered to rats resulted in significant increases in the FPG (P < 0.001) of test animals compared with controls. However, dietary supplementation with PB (6 g/kg extract for 4 weeks administered orally using an intragastric tube) ameliorated the alloxan-induced diabetes in a manner comparable with that of the reference antidiabetic drug glibenclamide. Aqueous and methanolic extracts of PB (6% w/w) elicited 69.2% and 64.4% reductions, respectively, in FPG compared with 70.4% in 0.01 mg/150 g glibenclamide-treated rats. 4. Although animals treated with the aqueous extract of PB gained weight in manner similar to normal controls, animals given the methanolic extract and glibenclamide lost weight in manner similar to non-treated diabetic rats. In addition, high levels of HDL and low LDL were observed in animals treated with the aqueous extract of PB, a pattern similar to that seen in normal controls. Low levels of HDL and high levels of LDL were observed in animals treated with the methanolic extract of PB, a pattern similar to that seen in non-treated diabetic controls. 5. The results of the present study demonstrate that both aqueous and methanolic extracts of fermented seeds of PB exert a hypoglycaemic effect; hence, PB has an antidiabetic property. However, only the aqueous extract of PB ameliorated the loss of bodyweight usually associated with diabetes. Although the aqueous extract has a favourable lipid profile, which is probably an indication of its possible anti-arteriogenic property (hypertension and ischaemic heart diseases being common complications in diabetes mellitus), the methanolic extract shows possible contraindication to ischaemic heart diseases.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/12460666",
+                "title": "Opening of potassium channels modulates mitochondrial function in rat skeletal muscle.",
+                "abstract": "We have investigated the presence of diazoxide- and nicorandil-activated K+ channels in rat skeletal muscle. Activation of potassium transport in the rat skeletal muscle myoblast cell line L6 caused a stimulation of cellular oxygen consumption, implying a mitochondrial effect. Working with isolated rat skeletal muscle mitochondria, both potassium channel openers (KCOs) stimulate respiration, depolarize the mitochondrial inner membrane and lead to oxidation of the mitochondrial NAD-system in a strict potassium-dependent manner. This is a strong indication for KCO-mediated stimulation of potassium transport at the mitochondrial inner membrane. Moreover, the potassium-specific effects of both diazoxide and nicorandil on oxidative phosphorylation in skeletal muscle mitochondria were completely abolished by the antidiabetic sulfonylurea derivative glibenclamide, a well-known inhibitor of ATP-regulated potassium channels (K(ATP) channels). Since both diazoxide and nicorandil facilitated swelling of de-energised mitochondria in KSCN buffer at the same concentrations, our results implicate the presence of a mitochondrial ATP-regulated potassium channel (mitoK(ATP) channel) in rat skeletal muscle which can modulate mitochondrial oxidative phosphorylation.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/10199151",
+                "title": "[Use of sulfonylurea (SU) in the treatment of diabetes mellitus].",
+                "abstract": "The main action of SU in the treatment of diabetes mellitus is the stimulation of insulin secretion, and the extrapancreatic action including stimulation of insulin actions in glycogen synthesis and inhibition of glucose production in liver is also reported. The indication of SU in the treatment of diabetes mellitus is for NIDDM usually after diet therapy or suitable exercise therapy. In IDDM and several special cases including diabetic ketoacidosis, severe infection, pregnancy, poor-controlled NIDDM, gangrane, surgery operation, severe renal or hepatic failure et al. insulin therapy should be started. In mild NIDDM, gliclazide, tolbutamide or acetohexamide is used, and in more severe NIDDM glibenclamide is used. The action time of chlorpropamide is very long, usually from 20 to 60 hours, therefore special care should be taken for hypoglycemia. As the causes for secondary failure, transition from NIDDM to IDDM, failure of diet therapy, glucose toxity and others are considered.",
+                "sections": null,
+                "type": "document"
+            },
+            {
+                "uri": "http://www.ncbi.nlm.nih.gov/pubmed/6805141",
+                "title": "[Effect of glibenclamide therapy on carbohydrate and lipid metabolism and insulin secretion in patients with glucose tolerance disorders : a 5-year study].",
+                "abstract": "In normal weight persons with impaired glucose tolerance (IGT; normal fasting glycaemia and pathological glucose tolerance) and still normal or already decreased insulin secretion the influence of glibenclamide (maninil) on the carbohydrate and lipid metabolism as well as the insulin secretion was studied after one year (n = 18), after 2 years (n =13), after 3 years (n = 10) and after 5 years (n = 6). Glucose tolerance and insulin secretion were characterized by means of a 2 hours' glucose infusion test (0.33 g/kg as bolus and 12 mg/kg/min over 120 min). In no case the diabetes became manifest during the 5-year duration of the observation. An improvement of the glucose tolerance could be observed up to 3 years, whereas after a 5-year glibenclamide therapy no certain influence on the glucose tolerance and insulin secretion could be proved. In general the improvement of the glucose tolerance was not associated with an increased secretion of insulin, so that an extrapancreatic effect of glibenclamide (improvement of the peripheral insulin sensitivity?) seems to be possible. A complete normalization of the glucose tolerance could be observed only in some individual cases. The body-weight remained constant in all groups, whereas the concentration of triglyceride and cholesterol decreased in their tendency. From clinical and practical point of view the findings would support the opinion that normal weight persons with IGT, particularly in already decreased insulin secretion, have an indication for a glibenclamide therapy.",
+                "sections": null,
+                "type": "document"
+            }
+        ],
+        "finalized": true,
+        "snippets": [
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 1096,
+                "endIndex": 1299,
+                "text": "Metformin and glibenclamide are now increasingly viewed as a rational alternative to insulin therapy--a treatment both preferred by the women and a less expensive one, during pregnancy and breastfeeding.",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/22639778"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 574,
+                "endIndex": 848,
+                "text": "The effect of TFG on blood glucose were studied and the levels of lipid peroxidation [MDA (Malondialdehyde)] and antioxidant enzymes [SOD (Superoxide dismutase), GPx (Reduced Glutathione peroxidase)] were estimated and compared with standard drugs glibenclamide and insulin.",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/21608438"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 858,
+                "endIndex": 1016,
+                "text": "Treatment with TFG, insulin and glibenclamide resulted in significantly reduced blood glucose in LM (8.71%) and HM (3.87%) in comparison with normal controls.",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/21608438"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 1418,
+                "endIndex": 1612,
+                "text": "Potency of TFG in restoring several parameters to normal values is comparable to glibenclamide, though not as efficient as insulin, an indication of its antihyperglycemic and antioxidant effect.",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/21608438"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 1217,
+                "endIndex": 1456,
+                "text": "However, dietary supplementation with PB (6 g/kg extract for 4 weeks administered orally using an intragastric tube) ameliorated the alloxan-induced diabetes in a manner comparable with that of the reference antidiabetic drug glibenclamide",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/16922811"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 650,
+                "endIndex": 947,
+                "text": "Moreover, the potassium-specific effects of both diazoxide and nicorandil on oxidative phosphorylation in skeletal muscle mitochondria were completely abolished by the antidiabetic sulfonylurea derivative glibenclamide, a well-known inhibitor of ATP-regulated potassium channels (K(ATP) channels).",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/12460666"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 610,
+                "endIndex": 722,
+                "text": "In mild NIDDM, gliclazide, tolbutamide or acetohexamide is used, and in more severe NIDDM glibenclamide is used.",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/10199151"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 648,
+                "endIndex": 850,
+                "text": "An improvement of the glucose tolerance could be observed up to 3 years, whereas after a 5-year glibenclamide therapy no certain influence on the glucose tolerance and insulin secretion could be proved.",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/6805141"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 851,
+                "endIndex": 1087,
+                "text": "In general the improvement of the glucose tolerance was not associated with an increased secretion of insulin, so that an extrapancreatic effect of glibenclamide (improvement of the peripheral insulin sensitivity?) seems to be possible.",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/6805141"
+            },
+            {
+                "type": "snippet",
+                "beginSection": "abstract",
+                "endSection": "abstract",
+                "beginIndex": 1323,
+                "endIndex": 1541,
+                "text": "From clinical and practical point of view the findings would support the opinion that normal weight persons with IGT, particularly in already decreased insulin secretion, have an indication for a glibenclamide therapy.",
+                "document": "http://www.ncbi.nlm.nih.gov/pubmed/6805141"
+            }
+        ],
+        "statements": [],
+        "type": "factoid",
+        "version": 2
+    }]
