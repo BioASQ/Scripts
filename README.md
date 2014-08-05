@@ -61,3 +61,28 @@ Imports questions in JSON format into the questions database specified.
         -f, --question-file <file name>  JSON file with questions to import
         -d, --database-name <name>       Database to import to
         -c, --collection-name <name>     Collection to import to
+
+`createTestPhase.py`
+---------------------
+
+Creates the files for the task B BioASQ challenge, given dump data from the BioASQ Annotation Tool.
+
+    Usage: python createTestPhase.py filename
+
+    Filename: the path to the file containing the Annotation Tool data 
+    
+    Example Call: python createDataFiles.py annotationToolData-toy.json 
+    
+
+
+`createStats.py`
+---------------------
+
+Provides a summary with stastistics about a dataset of the task B BioASQ challenge.
+
+    Usage: python createStats.py filename
+
+    Filename: the path to the file containing the golden data of a task B BioASQ challenge, as created by the script     createTestPhase.py
+    
+    Example Call: python createStats.py golden.json
+
